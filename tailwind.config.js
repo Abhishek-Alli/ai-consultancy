@@ -38,6 +38,7 @@ module.exports = {
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
         display: ['Poppins', 'system-ui', 'sans-serif'],
+        handwritten: ['Caveat', 'cursive'],
       },
       animation: {
         'fade-in': 'fadeIn 0.6s ease-in-out',

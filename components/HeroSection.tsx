@@ -1,6 +1,7 @@
 'use client'
 
 import { ArrowRight, Zap, Brain, TrendingUp } from 'lucide-react'
+import Logo from './Logo'
 
 const HeroSection = () => {
   const scrollToSection = (sectionId: string) => {
@@ -22,9 +23,12 @@ const HeroSection = () => {
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              AI Consultancy &{' '}
-              <span className="text-gradient">Automation</span>{' '}
-              Services
+              <Logo size="lg" showText={false} className="mb-4" />
+              <span className="text-gradient logo-text">GAINAI.ONLINE</span>{' '}
+              <br />
+              <span className="text-2xl md:text-3xl lg:text-4xl text-gray-600 font-medium">
+                AI Consultancy & Automation Services
+              </span>
             </h1>
             
             <p className="text-xl text-gray-600 leading-relaxed">

@@ -1,7 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import { Menu, X, Brain, ChevronDown } from 'lucide-react'
+import { Menu, X, ChevronDown } from 'lucide-react'
+import Logo from './Logo'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -28,12 +29,7 @@ const Navbar = () => {
       <div className="container-custom">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-primary-600 to-accent-600 rounded-lg flex items-center justify-center">
-              <Brain className="w-5 h-5 text-white" />
-            </div>
-            <span className="text-xl font-bold text-gray-900">AI Consultancy</span>
-          </div>
+          <Logo size="md" />
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">

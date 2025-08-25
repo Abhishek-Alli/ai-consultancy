@@ -2,10 +2,10 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'AI Consultancy & Automation Services',
+  title: 'GAINAI.ONLINE - AI Consultancy & Automation Services',
   description: 'We help companies automate tasks, integrate AI, and streamline business workflows using n8n and custom AI solutions.',
   keywords: 'AI consultancy, automation, n8n workflows, business process optimization, AI integration',
-  authors: [{ name: 'AI Consultancy Team' }],
+      authors: [{ name: 'GAINAI.ONLINE Team' }],
   viewport: 'width=device-width, initial-scale=1',
 }
 

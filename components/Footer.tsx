@@ -1,6 +1,7 @@
 'use client'
 
-import { Brain, Mail, MessageCircle, Linkedin, Github, ArrowUp } from 'lucide-react'
+import { Mail, MessageCircle, Linkedin, Github, ArrowUp } from 'lucide-react'
+import Logo from './Logo'
 
 const Footer = () => {
   const quickLinks = [
@@ -60,11 +61,8 @@ const Footer = () => {
           <div className="grid lg:grid-cols-4 gap-8">
             {/* Company Info */}
             <div className="lg:col-span-2">
-              <div className="flex items-center space-x-3 mb-6">
-                <div className="w-10 h-10 bg-gradient-to-br from-primary-600 to-accent-600 rounded-xl flex items-center justify-center">
-                  <Brain className="w-6 h-6 text-white" />
-                </div>
-                <span className="text-2xl font-bold">AI Consultancy</span>
+              <div className="mb-6">
+                <Logo size="lg" />
               </div>
               <p className="text-gray-300 mb-6 max-w-md leading-relaxed">
                 I help companies automate tasks, integrate AI, and streamline business workflows using n8n and custom AI solutions. Passionate about data analysis and process optimization.
@@ -120,7 +118,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2024 Abhishek Alli - AI Consultancy. All rights reserved.
+              © 2024 Abhishek Alli - GAINAI.ONLINE. All rights reserved.
             </div>
             
             <div className="flex items-center space-x-6 text-sm text-gray-400">

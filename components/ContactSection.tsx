@@ -20,7 +20,7 @@ const ContactSection = () => {
     try {
       // Using a simple mailto approach for now
       // In production, you'd want to use a service like EmailJS, Formspree, or your own API
-      const mailtoLink = `mailto:alliabhishek138@gmail.com?subject=AI Consultancy Inquiry from ${formData.name}&body=Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`
+      const mailtoLink = `mailto:alliabhishek138@gmail.com?subject=GAINAI.ONLINE Inquiry from ${formData.name}&body=Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`
       
       window.open(mailtoLink, '_blank')
       setSubmitStatus('success')

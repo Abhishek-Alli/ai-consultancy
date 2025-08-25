@@ -1,4 +1,4 @@
-# AI Consultancy Website
+# GAINAI.ONLINE - AI Consultancy Website
 
 A professional, modern website for AI consultancy and automation services built with Next.js and TailwindCSS.
 
